@@ -27,7 +27,6 @@ const Forgotpassword = () => {
             </div>
 
             
-
             <div className={css.forth}>
                 <button className={css.signin}>Sign in</button>
             </div>
