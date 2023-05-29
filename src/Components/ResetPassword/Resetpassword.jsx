@@ -1,9 +1,9 @@
 import React from 'react'
-import css from "./Forgotpassword.module.css"
+import css from "./Resetpassword.module.css"
 import Logo from "../../assets/Logo 1.svg" 
 
-const Forgotpassword = () => {
-  return (
+const Resetpassword = () => {
+  return ( 
     <div className={css.container}>
     <div className={css.left}>
         <div className={css.logodiv}>
@@ -17,18 +17,22 @@ const Forgotpassword = () => {
            
         </div>
 
-
+ 
 
 
         <div className={css.bottom}>
-            <div className={css.email}>  
-            <span>E-mail</span>
-              <input className={css.logininput} type="email" />
+            <div className={css.password}>  
+            <span>New Password</span>
+              <input className={css.logininput} type="password" />
             </div>
+            <div className={css.password}>
+                <span>Confirm Password</span> 
+                 <input className={css.logininput} type="password" />
+                </div>
 
             
             <div className={css.forth}>
-                <button className={css.signin}>Send</button>
+                <button className={css.signin}>Reset Password</button>
             </div>
             <div className={css.fifth}>
               <span>Back to login</span>
@@ -44,4 +48,4 @@ const Forgotpassword = () => {
   )
 }
 
-export default Forgotpassword
+export default Resetpassword
