@@ -28,7 +28,7 @@ const UsersManagement = () => {
         <div className={css.div2}>
             <div className={css.div2left}>
              
-               <img src={Search} alt="" />   <input type="text"  placeholder='search...'/>
+               <img src={Search} alt="" />   <input className={css.sinput} type="text"  placeholder='search...'/>
             </div>
 
             <div className={css.div2right}>
@@ -70,7 +70,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -78,7 +78,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -86,7 +86,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -94,7 +94,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -102,7 +102,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -110,7 +110,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -118,7 +118,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -126,7 +126,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -134,7 +134,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -142,7 +142,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          <tr>
             <td>01</td>
@@ -150,7 +150,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td>View Details</td>
+            <td className={css.vd}>View Details</td>
          </tr>
          
        
