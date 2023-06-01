@@ -20,13 +20,20 @@
 .top{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.4rem;
+}
+.tab{
+    display: flex;
+    gap: 0.4rem;
+    padding: 7% 5%;
 }
 .tab:hover,.tab:active{
-    background-color:#e5caca;
+    background-color:#595050;
     /* width: fit-content; */
     border-radius: 15px;
-    height: fit-content;
+    /* height: 50px;
+    width: 200px; */
+    padding: 7% 5%;
 
 }
 .dash{

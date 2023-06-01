@@ -2,7 +2,7 @@ import React from 'react'
 import css from "./UsersManagement.module.css"
 import Bell  from "../../assets/Notification.svg"
 import Settings  from "../../assets/settings.svg"
-// import Search  from "../../assets/Frame 239.svg"
+
 import Filter  from "../../assets/Frame 239.svg"
 import Search  from "../../assets/search.svg"
 import Down  from "../../assets/chevron-down.svg"

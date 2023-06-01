@@ -20,13 +20,24 @@ const Navbar = () => {
       <img src={Invicious} alt="" /> 
       </div>
 
-      <div className={css.tab}>  <img className={css.dash} src={Dashboard} alt="" /> <span>Dashboard</span></div>
-      <div> <img src={User} alt="" /> <span>User management</span></div>
-      <div> <img src={Registration} alt="" /> <span>Registration</span></div>
-      <div> <img src={Message} alt="" /> <span>Chat</span></div>
+      <div className={css.tab}> 
+       <img className={css.dash} src={Dashboard} alt="" /> <span>Dashboard</span>
+       </div>
+      <div className={css.tab}> 
+       <img className={css.dash} src={Dashboard} alt="" /> <span>User Management</span>
+       </div>
+      <div className={css.tab}> 
+       <img className={css.dash} src={Dashboard} alt="" /> <span>Registration</span>
+       </div>
+      <div className={css.tab}> 
+       <img className={css.dash} src={Dashboard} alt="" /> <span>Chat</span>
+       </div>
+
+
+     
     
 
-      </div>
+      </div> 
 
 
       <div className={css.bottom}>
