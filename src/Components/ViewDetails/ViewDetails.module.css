@@ -51,11 +51,14 @@
 }
 .bleft{
     width: 60%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
       background-color: #EEEEEE;
       padding: 2% 2%;
+      overflow-y: scroll;
+      overflow-x: hidden;
 }
 .firstform{
     display: flex;
@@ -84,6 +87,7 @@ width: 100%;
 }
 .bright{
     width: 40%;
+    height: 87vh;
       background-color: #EEEEEE;
       display: flex;
       flex-direction: column;

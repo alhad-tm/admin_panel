@@ -1,8 +1,8 @@
 .container{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    gap: 14rem;
+    justify-content: space-between;
+    /* gap: 14rem; */
     padding: 2% 2%;
     color: #ffffff;
     background-color:  #D9D9D9;
@@ -28,38 +28,31 @@
     padding: 7% 5%;
    
 }
-.tab{
+/* .tab{
     color: rgba(50, 50, 50, 1);
-}
+} */
 
-.tab:hover,.tab:active{
+.tab:hover{
     background-color:rgba(50, 50, 50, 1);
     border-radius: 15px;
     padding: 7% 5%;
     color: rgba(255, 255, 255, 1);
-    cursor: pointer;
-     /* height: 50px;
-    width: 200px; */
-
+    cursor: pointer;  
 }
 
 /* .tab:hover,.tab:active>img{
     background-color: rgb(232, 237, 232);
     color: red;
 } */
+
+
+
 .tab:hover>svg{
     fill: rgb(236, 243, 243);
    
 }
 
 
-.tab>svg:hover{
-    fill: red;
-}
-.tab>svg:hover{
-    fill: red;
-}
-
-svg:hover{
-    fill: blue;
+.bottom>span{
+    color: rgba(80, 80, 80, 1);
 }

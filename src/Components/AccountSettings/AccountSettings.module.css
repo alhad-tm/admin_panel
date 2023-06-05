@@ -143,7 +143,7 @@
 .btns2{
     display: flex;
     gap: 0.6rem;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .saveb{
     padding: 0px 13px;

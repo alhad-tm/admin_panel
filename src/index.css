@@ -16,3 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ .active{
+  background-color:rgba(50, 50, 50, 1);
+  border-radius: 15px;
+  color: rgb(236, 228, 228) ;
+ display: inline-block;
+ 
+} 
