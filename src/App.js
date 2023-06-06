@@ -13,6 +13,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Requestmodifiction from './Components/Requestmodification/Requestmodifiction';
 import UsersManagement from './Components/UsersManagement/UsersManagement';
 import Notification from './Components/Notification/Notification';
+import Registration from './Components/Registration/Registration';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/login"  element={<Login />} />
         <Route path="/fpassword"  element={<Forgotpassword/>} />
         <Route path="/rpassword"  element={<Resetpassword/>} />
+        <Route path="/reg"  element={<Registration/>} />
           
           
           </Routes>  

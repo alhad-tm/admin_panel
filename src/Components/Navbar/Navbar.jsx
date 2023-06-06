@@ -55,7 +55,7 @@ const Navbar = () => {
 
           <span  >User Management</span>
         </div>   </NavLink> 
-  <Link to ="/view">     <div className={css.tab}>
+  <NavLink to ="/reg">     <div className={css.tab}>
           
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_93_177)">
@@ -70,7 +70,7 @@ const Navbar = () => {
 
 
           <span>Registration</span>
-        </div>  </Link> 
+        </div>  </NavLink> 
         
 
     <Link to="/chat">   <div className={css.tab}>

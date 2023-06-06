@@ -1,8 +1,8 @@
 import React from 'react'
+import { Link} from "react-router-dom";
 import css from "./UsersManagement.module.css"
 import Bell  from "../../assets/Notification.svg"
 import Settings  from "../../assets/settings.svg"
-
 import Filter  from "../../assets/Frame 239.svg"
 import Search  from "../../assets/search.svg"
 import Down  from "../../assets/chevron-down.svg"
@@ -35,6 +35,7 @@ const UsersManagement = () => {
                <div className={css.r1}>
                   <span>Sort by</span> <img src={Down} alt="" />
                </div>
+             
 
                <div className={css.r2}>
                <span>Filter</span> <img src={Filter} alt="" />
@@ -70,7 +71,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-            <td className={css.vd}>View Details</td>
+       <Link to="/view">   <td className={css.vd}>View Details</td> </Link>   
          </tr>
          <tr>
             <td>01</td>
