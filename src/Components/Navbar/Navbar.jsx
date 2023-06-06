@@ -19,7 +19,7 @@ const Navbar = () => {
           <img src={Invicious} alt="" />
         </div>
 
-     <div className={css.tab}>
+   <NavLink to="/dash"> <div className={css.tab}>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_56_1183)">
 <path d="M10.5 19.9V4.1C10.5 2.6 9.86 2 8.27 2H4.23C2.64 2 2 2.6 2 4.1V19.9C2 21.4 2.64 22 4.23 22H8.27C9.86 22 10.5 21.4 10.5 19.9Z" stroke="#323232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -35,7 +35,7 @@ const Navbar = () => {
 
 
           <span>Dashboard</span>
-        </div>
+        </div> </NavLink> 
     
 
 

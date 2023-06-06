@@ -71,7 +71,7 @@ const UsersManagement = () => {
             <td>01-01-2020</td>
             <td>Audio Streaming platform</td>
             <td>Onboarded</td>
-       <Link to="/view">   <td className={css.vd}>View Details</td> </Link>   
+       <Link to="/view">   <td className={css.vd1}>View Details</td> </Link>   
          </tr>
          <tr>
             <td>01</td>
