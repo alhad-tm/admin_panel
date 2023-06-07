@@ -20,9 +20,7 @@ code {
   background-color:rgba(50, 50, 50, 1);
   border-radius: 15px;
   color: rgba(255, 255, 255, 1);
- display: inline-block;
+ /* display: inline-block; */
+ 
  
 } 
-.active>svg{
-  fill: aqua;
-}
