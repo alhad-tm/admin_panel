@@ -14,6 +14,8 @@ import Requestmodifiction from './Components/Requestmodification/Requestmodifict
 import UsersManagement from './Components/UsersManagement/UsersManagement';
 import Notification from './Components/Notification/Notification';
 import Registration from './Components/Registration/Registration';
+import Notifypop from './Components/Notifypopup/Notifypop';
+import Decline from './Components/Decline/Decline';
 
 function App() {
   return (
@@ -27,8 +29,10 @@ function App() {
         <Route path="/" exact element={<UsersManagement />} />
         <Route path="/view"  element={ <ViewDetails/>} />
         <Route path="/notification"  element={ <Notification/>} />
+        <Route path="/notifypopup"  element={ <Notifypop/>} />
         <Route path="/ac"  element={  <AccountSettings/>} />
         <Route path="/req"  element={ <Requestmodifiction/>} />
+        <Route path="/decline"  element={ <Decline/>} />
         <Route path="/chat"  element={<Chat/>} />
         <Route path="/login"  element={<Login />} />
         <Route path="/fpassword"  element={<Forgotpassword/>} />

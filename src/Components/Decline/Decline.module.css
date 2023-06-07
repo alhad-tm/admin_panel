@@ -1,0 +1,56 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 1);
+
+    width: 60%;
+    height: 100%;
+    padding: 6% 12%;
+}
+
+.container>h4{
+    display: flex;
+    justify-content: center;
+}
+
+.sline{
+    display: flex;
+    flex-direction: column;
+    /* gap: 50%; */
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.req{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.4rem;
+
+}
+.logininput{
+    width: 100%;
+    border: 1px solid #464242;
+    height: 35px;
+    color: #353232;
+    border-radius: 6px;
+}
+.textareainput{
+    width: 100%;
+    border: 1px solid #464242;
+    height: 73px;
+    color: #353232;
+    border-radius: 6px;
+}
+.sbtn{
+    background-color: rgba(50, 50, 50, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 50%;
+    color:rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    margin-top: 1rem;
+    border: 1px solid rgba(50, 50, 50, 1) ;
+}

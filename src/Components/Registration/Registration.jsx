@@ -2,7 +2,7 @@ import React from 'react'
 import css from "./Registration.module.css"
 import Bell  from "../../assets/Notification.svg"
 import Settings  from "../../assets/settings.svg"
-
+import Vector  from "../../assets/Vector.svg"
 import Filter  from "../../assets/Frame 239.svg"
 import Search  from "../../assets/search.svg"
 import Down  from "../../assets/chevron-down.svg"
@@ -32,7 +32,7 @@ const Registration = () => {
 
         <div className={css.div2right}>
            <div className={css.r0}>
-              <span>View Analytics</span> <img src={Down} alt="" />
+              <span>View Analytics</span> <img src={Vector} alt="" />
            </div>
            <div className={css.r1}>
               <span>Sort by</span> <img src={Down} alt="" />

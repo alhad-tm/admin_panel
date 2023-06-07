@@ -47,9 +47,8 @@
 
 
 
-.tab:hover>svg{
-    fill: rgb(236, 243, 243);
-   
+.tab>svg{
+    width: 40px;
 }
 
 
