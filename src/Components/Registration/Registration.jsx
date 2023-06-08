@@ -56,7 +56,7 @@ const Registration = () => {
     <div className={css.div3}>
 
         {/* table */}
-    <table className={css.table1}  cellpadding = "400" cellspacing = "23" >
+    <table className={css.table1}  >
      <tr  className={css.thead}>
         <td>Sl.No:</td>
         <td>Name</td>

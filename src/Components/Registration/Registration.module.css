@@ -80,11 +80,23 @@
     height: 100%;
 }
 .table1{
-    width: 100%;
-    margin-top: 2rem;
+    /* width: 100%; */
+    border-collapse:collapse;
+    margin: 25px 0;
+    min-width: 100%;
+    min-height: 90%;
+    padding: 1rem 2rem;
+    font-size: 13px;
+       /* text-align: center;
+    align-items: center; */
+}
+.table1>tr{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
 }
 .thead{
-    background-color: #fff;
+    background-color: #ad0c0c;
 }
 .numbers{
     display: flex;
