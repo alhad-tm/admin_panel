@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link} from "react-router-dom";
 import css from "./Registration.module.css"
 import Bell  from "../../assets/Notification.svg"
 import Settings  from "../../assets/settings.svg"
@@ -72,7 +73,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">   <td className={css.vd}>View Details</td></Link>
      </tr>
      <tr>
         <td>01</td>
@@ -124,7 +125,7 @@ const Registration = () => {
      </tr>
      <tr>
         <td>01</td>
-        <td>Beatriz</td>
+        <td>Beatrizcccccccc</td>
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
