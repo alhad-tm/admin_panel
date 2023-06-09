@@ -58,22 +58,26 @@ const Registration = () => {
 
         {/* table */}
     <table className={css.table1}  >
-     <tr  className={css.thead}>
+      <thead>
+      <tr  className={css.thead}>
         <td>Sl.No:</td>
         <td>Name</td>
         <td>Date of reg</td>
-        <td>Type of organisation</td>
-        
+        <td>Type of organisation</td>  
         <td>Status</td>
         <td>Details</td>
      </tr> 
+      </thead>
+      <tbody>
+    
      <tr>
         <td>01</td>
         <td>Beatriz</td>
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <Link to="/view">   <td className={css.vd}>View Details</td></Link>
+   <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>    
+       
      </tr>
      <tr>
         <td>01</td>
@@ -81,7 +85,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -89,7 +93,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -97,7 +101,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -105,7 +109,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -113,7 +117,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -121,7 +125,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -129,7 +133,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -137,7 +141,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -145,7 +149,7 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
      <tr>
         <td>01</td>
@@ -153,8 +157,9 @@ const Registration = () => {
         <td>01-01-2020</td>
         <td>Audio Streaming platform</td>
         <td>Onboarded</td>
-        <td className={css.vd}>View Details</td>
+        <Link to="/view">  <td>  <button className={css.vd}> View Details</button>  </td>   </Link>   
      </tr>
+     </tbody>
      
    
   </table>

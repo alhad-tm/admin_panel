@@ -15,12 +15,7 @@
     display: flex;
     gap: 1rem;
 }
-.div2{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 2rem;
-   
-}
+
 .div3search{
     /* width: fit-content;
     height: fit-content; */
@@ -45,27 +40,7 @@
 
 
 
-.div2right{
-    display: flex;
-    gap: 1rem;
-}
-.r1,.r2,.r3{
-    display: flex;
-    gap: 0.5rem;
-    width: 110px;
-   
 
-}
-.r1,.r2{
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-}
-.r3{
-    justify-content: center;
-    align-items: center;
-}
 
 /* bottom */
 

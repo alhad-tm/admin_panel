@@ -1,10 +1,6 @@
 import React from 'react'
 import css from "./Chat.module.css"
-import Left  from "../../assets/chevron-left.svg"
-import Right  from "../../assets/chevron-right.svg"
-import Filter  from "../../assets/Frame 239.svg"
 import Search  from "../../assets/search.svg"
-import Down  from "../../assets/chevron-down.svg"
 import Bell  from "../../assets/Notification.svg"
 import Settings  from "../../assets/settings.svg"
 import Profile from "../../assets/prfl.png"
@@ -31,32 +27,7 @@ const Chat = () => {
         </div>
 
 
-        <div className={css.div2}>
-
-            {/* <div className={css.div2left}>
-             
-               <img src={Search} alt="" />   <input className={css.sinput} type="text"  placeholder='search...'/>
-            </div> */}
-
-            <div className={css.div2right}>
-               <div className={css.r1}>
-                  <span>Sort by</span> <img src={Down} alt="" />
-               </div>
-
-               <div className={css.r2}>
-               <span>Filter</span> <img src={Filter} alt="" />
-               </div>
-
- 
-               <div className={css.r3}>
-                  <img src={Left} alt="" />
-                  <span>1-50</span>
-                  <img src={Right} alt="" />
-               </div>
-
-
-            </div>
-        </div>
+       
 
         {/* bottom */}
 
