@@ -41,6 +41,12 @@ const Registration = () => {
 
            <div className={css.r2}>
            <span>Filter</span> <img src={Filter} alt="" />
+           {/* <label htmlFor="">Filter</label>
+           <select name="" id="">
+            <option value="">by</option>
+            <option value="">age</option>
+            <option value="">number</option>
+           </select> */}
            </div>
 
 
