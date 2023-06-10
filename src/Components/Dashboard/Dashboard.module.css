@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(233, 233, 233, 1);
+    width:  -webkit-fill-available;
+    height: 100%;
+    padding: 1% 5%;
+}
+.div1{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.div1right{
+    display: flex;
+    gap: 1rem;
+}
+.prfl{
+    display: flex;
+   align-items: center;
+}
+.prfl>img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.div2{
+    height: 157px;
+    background-color: #fff;
+    padding: 2% 1%;
+    font-size: 14px;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+.div2top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div2topright{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.div2bottom{
+    display: flex;
+    gap: 1rem;
+    padding: 3% 1%;
+}
+
+.alltime{
+    display: flex;
+width: 62px;
+height: 31px;
+border-radius: 8px;
+padding: 6px 6px;
+color: rgba(80, 80, 80, 1);
+border: 0.3px solid rgba(80, 80, 80, 1);
+
+}
+
+.sbox{
+    width: 25%;
+    height: 74px;
+    background-color:rgba(241, 241, 241, 1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between; 
+    align-content: center;
+    padding: 2% 1%;
+}
+.sboxleft{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-content: center;
+}

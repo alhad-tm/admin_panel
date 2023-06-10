@@ -16,6 +16,7 @@ import Notification from './Components/Notification/Notification';
 import Registration from './Components/Registration/Registration';
 import Notifypop from './Components/Notifypopup/Notifypop';
 import Decline from './Components/Decline/Decline';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/ac"  element={  <AccountSettings/>} />
         <Route path="/req"  element={ <Requestmodifiction/>} />
         <Route path="/decline"  element={ <Decline/>} />
+        <Route path="/dash"  element={ <Dashboard/>} />
         <Route path="/chat"  element={<Chat/>} />
         <Route path="/login"  element={<Login />} />
         <Route path="/fpassword"  element={<Forgotpassword/>} />
