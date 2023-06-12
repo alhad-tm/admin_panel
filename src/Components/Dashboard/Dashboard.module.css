@@ -4,7 +4,7 @@
     background-color: rgba(233, 233, 233, 1);
     width:  -webkit-fill-available;
     height: 100%;
-    padding: 1% 5%;
+    padding: 2% 5%;
 }
 .div1{
     display: flex;
@@ -15,6 +15,32 @@
 .div1right{
     display: flex;
     gap: 1rem;
+}
+
+/* .div1right svg:hover path{
+background-color: black;
+fill: black;
+stroke: black;
+} */
+.white{
+    background-color: rgba(255, 255, 255, 1);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white:hover{
+    background-color: black;
+}
+.white:hover svg path{
+    stroke: #fff;
+   
+}
+.active svg path{
+    stroke: yellowgreen;
 }
 .prfl{
     display: flex;
@@ -76,3 +102,24 @@ border: 0.3px solid rgba(80, 80, 80, 1);
    justify-content: center;
    align-content: center;
 }
+.div3{
+    height: 365px;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+/* .act{
+    background-color:rgb(225, 17, 17);
+    border-radius: 20px;
+    height: 45px;
+    width: 236px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    
+  } 
+  .act svg path{
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 0.2px;
+    fill: rgba(255,255,255,1);
+  }
+   */

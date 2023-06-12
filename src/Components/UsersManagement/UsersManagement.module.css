@@ -4,7 +4,7 @@
     background-color: rgba(233, 233, 233, 1);
     width:  -webkit-fill-available;
     height: 100%;
-    padding: 1% 5%;
+    padding: 2% 5%;
 }
 .div1{
     display: flex;
@@ -14,7 +14,11 @@
 .div1right{
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
+/* .div1right svg,img{
+    height: 40px
+} */
 .div2{
     display: flex;
     justify-content: space-between;

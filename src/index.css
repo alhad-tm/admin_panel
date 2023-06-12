@@ -18,9 +18,16 @@ code {
 }
  .active{
   background-color:rgba(50, 50, 50, 1);
-  border-radius: 15px;
+  border-radius: 20px;
+  height: 45px;
+  width: 236px;
   color: rgba(255, 255, 255, 1);
- /* display: inline-block; */
- 
- 
+  display: flex;
+  align-items: center;
+  
 } 
+.active svg path{
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 0.2px;
+  fill: rgba(255,255,255,1);
+}

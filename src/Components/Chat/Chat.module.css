@@ -15,6 +15,26 @@
     display: flex;
     gap: 1rem;
 }
+.white{
+    background-color: rgba(255, 255, 255, 1);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white:hover{
+    background-color: black;
+}
+.white:hover svg path{
+    stroke: #fff;
+   
+}
+.active svg path{
+    stroke: yellowgreen;
+}
 
 .div3search{
     /* width: fit-content;
@@ -160,3 +180,19 @@
     display: flex;
     gap: 0.5rem;
 }
+.act{
+    background-color:rgb(9, 9, 9);
+    border-radius: 20px;
+    height: 45px;
+    width: 36px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    
+  } 
+  .act svg path{
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 0.2px;
+    fill: rgba(255,255,255,1);
+  }
+  

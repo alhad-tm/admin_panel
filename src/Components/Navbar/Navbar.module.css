@@ -22,10 +22,27 @@
     flex-direction: column;
     gap: 1.6rem;
 }
+.logomain{
+    margin-left: 1rem;
+}
 .tab{
     display: flex;
     gap: 0.4rem;
     padding: 7% 5%;
+    width: 236px;
+    height: 45px;
+    border-radius: 20px;
+    align-items: center;
+   
+}
+.tab1{
+    display: flex;
+    gap: 0.4rem;
+    padding: 7% 5%;
+    width: 236px;
+    height: 45px;
+    border-radius: 20px;
+    align-items: center;
    
 }
 /* .tab{
@@ -34,8 +51,26 @@
 
 .tab:hover{
     background-color:rgba(50, 50, 50, 1);
-    border-radius: 15px;
-    /* padding: 7% 5%; */
+    border-radius: 20px;
+    width: 236px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    padding: 7% 5%;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;  
+}
+.tab1:hover{
+    background-color:rgba(50, 50, 50, 1);
+    border-radius: 20px;
+    width: 236px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 7% 5%;
     color: rgba(255, 255, 255, 1);
     cursor: pointer;  
 }
@@ -47,16 +82,51 @@
 
 
 
-.tab>svg{
+/* .tab>svg{
     width: 40px;
-}
+} */
 
 
 .bottom>span{
     color: rgba(80, 80, 80, 1);
 }
-/* svg:active path{
- background-color: #e90202;
- color: green;
- fill:blue;
-} */
+.tab:hover svg path{
+ stroke: rgba(241, 241, 241, 1);
+ fill: rgba(255,255,255,1);
+ stroke-width: 0.2px;
+
+}
+.tab1:hover svg path{
+ stroke: rgba(241, 241, 241, 1);
+
+}
+
+
+
+
+/* .active{
+    background-color:rgba(50, 50, 50, 1);
+    border-radius: 20px;
+    height: 250px;
+    width: 236px;
+    color: rgb(155, 16, 16);
+    display: flex;
+    padding: 1% 1%;
+    
+  }  */
+
+  /* .active{
+    background-color:rgba(50, 50, 50, 1);
+    border-radius: 20px;
+    height: 45px;
+    width: 236px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    
+  } 
+  .active svg path{
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 0.2px;
+    fill: rgba(255,255,255,1);
+  } */

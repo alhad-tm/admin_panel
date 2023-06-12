@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link} from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 import css from "./UsersManagement.module.css"
 import Bell  from "../../assets/Notification.svg"
 import Settings  from "../../assets/settings.svg"
@@ -17,9 +17,16 @@ const UsersManagement = () => {
             <div className={css.div1left}> 
             <h2>Users Management</h2></div>
             <div className={css.div1right}>
+            <NavLink to="/chat">      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24" cy="24" r="24" fill="white"/>
+<path d="M29.0005 24.5C29.2766 24.5 29.5005 24.2761 29.5005 24C29.5005 23.7239 29.2766 23.5 29.0005 23.5C28.7244 23.5 28.5005 23.7239 28.5005 24C28.5005 24.2761 28.7244 24.5 29.0005 24.5Z" fill="#323232" stroke="#323232" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24.0005 24.5C24.2766 24.5 24.5005 24.2761 24.5005 24C24.5005 23.7239 24.2766 23.5 24.0005 23.5C23.7244 23.5 23.5005 23.7239 23.5005 24C23.5005 24.2761 23.7244 24.5 24.0005 24.5Z" fill="#323232" stroke="#323232" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.0005 24.5C19.2766 24.5 19.5005 24.2761 19.5005 24C19.5005 23.7239 19.2766 23.5 19.0005 23.5C18.7243 23.5 18.5005 23.7239 18.5005 24C18.5005 24.2761 18.7243 24.5 19.0005 24.5Z" fill="#323232" stroke="#323232" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 34C29.5228 34 34 29.5228 34 24C34 18.4771 29.5228 14 24 14C18.4771 14 14 18.4771 14 24C14 25.8214 14.487 27.5291 15.3378 29L14.5 33.5L19 32.6622C20.4709 33.513 22.1786 34 24 34Z" stroke="#323232" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></NavLink> 
                <img src={Bell} alt="" />
                <img src={Settings} alt="" />
-               <img src={Settings} alt="" />
+              
                <span>Profile Name</span>
             </div>
         </div>
