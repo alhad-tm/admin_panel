@@ -129,7 +129,7 @@ width: 100%;
     border-left: 1px solid rgb(60, 58, 58);
     padding: 0px 12.5px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 2rem;
 }
 .line>input{

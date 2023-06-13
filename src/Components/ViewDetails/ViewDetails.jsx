@@ -71,7 +71,7 @@ const ViewDetails = () => {
 
 
 {/* form2 */}
-<div className={css.b2}> 
+{ state >=3 && <div className={css.b2}> 
           <h5>Documentation details</h5>
 
           <h6>Theatre Information:</h6>
@@ -150,7 +150,7 @@ const ViewDetails = () => {
 
           </form>
 
-          </div>
+          </div> }
 
 {/* form2 */}
 </div>
