@@ -1,7 +1,8 @@
 .container{
   
     width: 100%;
-    padding: 0% 0%;
+    padding: 2.78% 2.78%;
+    background-color:  #D9D9D9;
 }
 .top{
     display: flex;
@@ -9,6 +10,31 @@
     background-color: #fff;
     padding: 1% 2%;
     
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.div1right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.div2{
+    height: 45px;
+background: #FFFFFF;
+border-radius: 9px;
+margin-bottom: 1rem;
+margin-top: 1rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0% 1%;
+}
+.lef{
+    display: flex;
+    gap: 0.4rem;
 }
 
 
@@ -46,11 +72,11 @@
 .bottom{
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 0.5rem;
     
 }
 .bleft{
-    width: 60%;
+    width: 70%;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -86,8 +112,8 @@ width: 100%;
     gap: 1rem;
 }
 .bright{
-    width: 40%;
-    height: 87vh;
+    width: 30%;
+    height: 90vh;
       background-color: #EEEEEE;
       display: flex;
       flex-direction: column;
@@ -98,7 +124,7 @@ width: 100%;
     padding: 3% 7%;
 }
 .uldiv{
-    padding: 2% 4%;
+    padding: 2% 6%;
 }
 .buttondiv{
     display: flex;
@@ -129,7 +155,7 @@ width: 100%;
     border-left: 1px solid rgb(60, 58, 58);
     padding: 0px 12.5px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 2rem;
 }
 .line>input{
@@ -143,4 +169,18 @@ height: 25px;
     border: 0.2px solid #323232;
     border-radius: 2px;
     height: 25px; 
+}
+.declineb{
+ border: 1px solid #323232;
+border-radius: 6px;
+padding: 6px 18px;
+width: 80%;
+}
+.sentdocb{
+background: #323232;
+border: 1px solid #323232;
+color:#FFFFFF;
+border-radius: 6px;
+padding: 6px 18px;
+width: 80%;
 }
