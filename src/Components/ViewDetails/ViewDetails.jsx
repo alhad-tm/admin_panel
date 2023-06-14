@@ -179,8 +179,8 @@ const ViewDetails = () => {
             <h6>Status</h6>
             <div className={css.uldiv}> 
             <ul className={css.timelinelist}>
-            {state>=6 &&  <div><li>Onboarded</li> <span style={{fontSize:"10px"}}>23-05-2023</span> </div>} 
-  {state>=5 &&  <div><li>Credential provided</li> <span style={{fontSize:"10px"}}>23-05-2023</span> </div>} 
+            {state>7 &&  <div><li>Onboarded</li> <span style={{fontSize:"10px"}}>23-05-2023</span> </div>} 
+  {state>6 &&  <div><li>Credential provided</li> <span style={{fontSize:"10px"}}>23-05-2023</span> </div>} 
   {state>=4 &&  <div><li>Documentation verified(manual)</li> <span style={{fontSize:"10px"}}>23-05-2023</span> </div>} 
   {state>=3 &&  <div><li>Documentation received</li> <span style={{fontSize:"10px"}}>23-05-2023</span> </div>} 
   { state>=2 &&  <div><li>Documentation sent</li> <span style={{fontSize:"10px"}}>23-05-2023</span> </div> } 
@@ -195,8 +195,10 @@ const ViewDetails = () => {
 <button className={css.declineb} onClick={()=>setState(state-1)}>Decline</button>
 {state<2 && <button className={css.sentdocb} onClick={()=>setState(state+1)}>Sent Documentation URL</button>}
 {state===2 && <button className={css.sentdocb} onClick={()=>setState(3)}>Resent Documentation URL</button>}
-{state>=3&& <button className={css.declineb} onClick={()=>setState(4)}>Request for modification</button>}
-{state>=3&& <button className={css.sentdocb} onClick={()=>setState(5)}>Verified</button>}
+{state===3&& <button className={css.declineb} onClick={()=>setState(4)}>Request for modification</button>}
+{state===3&& <button className={css.sentdocb} onClick={()=>setState(6)}>Verified</button>}
+{state===6&& <button className={css.sentdocb} onClick={()=>setState(7)}>Sent Credentials</button>}
+{state===7&& <button className={css.sentdocb} onClick={()=>setState(7)}>Resent Credentials</button>}
 </div>
 
 

@@ -4,7 +4,7 @@
     background-color: rgba(233, 233, 233, 1);
     width:  -webkit-fill-available;
     height: 100%;
-    padding: 1% 5%;
+    padding: 2.78% 2.78%;
 }
 .div1{
     display: flex;
@@ -65,13 +65,14 @@
 
 .div3{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-top: 2rem;
+    gap: 0.5rem;
 }
 
 .div3left{
-    height: 500px;
-    /* width: 30%; */
+    height: 80vh;
+    width: 30%;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
     padding: 1% 1%;
@@ -108,8 +109,8 @@
 
 
 .div3right{
-    height: 500px;
-    width: 60%;
+    height: 80vh;
+    width: 70%;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
