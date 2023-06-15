@@ -17,6 +17,9 @@ import Registration from './Components/Registration/Registration';
 import Notifypop from './Components/Notifypopup/Notifypop';
 import Decline from './Components/Decline/Decline';
 import Dashboard from './Components/Dashboard/Dashboard';
+import Filter from './Components/Filter/Filter';
+import FilterDropdown from './Components/FilterDropdown/FilterDropdown';
+
 
 function App() {
   return (
@@ -40,7 +43,9 @@ function App() {
         <Route path="/fpassword"  element={<Forgotpassword/>} />
         <Route path="/rpassword"  element={<Resetpassword/>} />
         <Route path="/reg"  element={<Registration/>} />
-          
+        <Route path="/filter"  element={<FilterDropdown/>} />
+      
+            
           
           </Routes>  
         

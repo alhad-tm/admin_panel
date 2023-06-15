@@ -198,7 +198,7 @@ const ViewDetails = () => {
 {state===3&& <button className={css.declineb} onClick={()=>setState(4)}>Request for modification</button>}
 {state===3&& <button className={css.sentdocb} onClick={()=>setState(6)}>Verified</button>}
 {state===6&& <button className={css.sentdocb} onClick={()=>setState(7)}>Sent Credentials</button>}
-{state===7&& <button className={css.sentdocb} onClick={()=>setState(7)}>Resent Credentials</button>}
+{state===7&& <button className={css.sentdocb} onClick={()=>setState(7)}>Resent Credentials</button>} 
 </div>
 
 
