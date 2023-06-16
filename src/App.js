@@ -19,6 +19,7 @@ import Decline from './Components/Decline/Decline';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Filter from './Components/Filter/Filter';
 import FilterDropdown from './Components/FilterDropdown/FilterDropdown';
+import ViewDetailsUser from './Components/ViewDetailsUser/ViewDetailsUser';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           
         <Route path="/" exact element={<UsersManagement />} />
         <Route path="/view"  element={ <ViewDetails/>} />
+        <Route path="/viewuser"  element={ <ViewDetailsUser/>} />
         <Route path="/notification"  element={ <Notification/>} />
         <Route path="/notifypopup"  element={ <Notifypop/>} />
         <Route path="/ac"  element={  <AccountSettings/>} />
@@ -43,6 +45,8 @@ function App() {
         <Route path="/fpassword"  element={<Forgotpassword/>} />
         <Route path="/rpassword"  element={<Resetpassword/>} />
         <Route path="/reg"  element={<Registration/>} />
+      
+
         <Route path="/filter"  element={<FilterDropdown/>} />
       
             
