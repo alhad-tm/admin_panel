@@ -73,9 +73,9 @@ const UsersManagement = () => {
             </div>
 
             <div className={css.div2right}>
-               <div className={css.r1}>
+               {/* <div className={css.r1}>
                   <span>Sort by</span> <img src={Down} alt="" />
-               </div>
+               </div> */}
              
 
                <div className={css.r2}>

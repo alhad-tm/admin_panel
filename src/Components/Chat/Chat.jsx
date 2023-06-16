@@ -56,7 +56,16 @@ const Chat = () => {
 </svg> 
 </Link>  
 </div>
-               <span>Profile Name</span>
+<div className={css.prfl}>
+                <div className={css.image}>
+                <img src={Profile} alt="" />
+                </div>
+             <div className={css.names}>
+             <span>Profile Name</span>
+               <span>UI/UX Designer</span>
+             </div>
+
+             </div>
             </div>
         </div>
 

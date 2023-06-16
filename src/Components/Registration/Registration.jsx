@@ -18,7 +18,7 @@ const Registration = () => {
 
     <div className={css.div1}>
         <div className={css.div1left}> 
-        <h2>Registrationn</h2></div>
+        <h2>Registration</h2></div>
         <div className={css.div1right}>
               <div className={css.white}>
      <Link to="/chat" >     
@@ -78,9 +78,9 @@ const Registration = () => {
            <div className={css.r0}>
               <span>View Analytics</span> <img src={Vector} alt="" />
            </div>
-           <div className={css.r1}>
+           {/* <div className={css.r1}>
               <span>Sort by</span> <img src={Down} alt="" />
-           </div>
+           </div> */}
 
            <div className={css.r2}>
            <span>Filter</span> <img src={Filter} alt="" />
