@@ -4,13 +4,15 @@ import "./FilterDropdown.css"
 const FilterDropdown = () => {
   return (
     <div>
-      <form>
+      
+      <form className='fill'>
         <select name="select" multiple className='multiselect'  multiselect-search="true">
-            <option value="">newzeland</option>
-            <option value="">india</option>
-            <option value="">usa</option>
-            <option value="">South Arica</option>
-            <option value="">South Arica</option>
+            <option value="">Audio streaming platform</option>
+            <option value="">Distribution company</option>
+            <option value="">Multiplex</option>
+            <option value="">Ott Streaming platform</option>
+            <option value="">Producer</option>
+            <option value="">Production house</option>
         </select>
       </form>
     </div>

@@ -78,9 +78,11 @@ const UsersManagement = () => {
                </div> */}
              
 
-               <div className={css.r2}>
+       <Link to="/filter">   <div className={css.r2}>
                <span>Filter</span> <img src={Filter} alt="" />
                </div>
+       </Link>       
+      
 
  
                <div className={css.r3}>
